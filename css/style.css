@@ -1,0 +1,141 @@
+*{
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    margin: 0 auto;
+}
+
+section{
+    background-image: url(../img/ondita.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    margin-bottom: 5%;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5% 5%;
+}
+
+h1{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    width: fit-content;
+    padding: 15px 15px;
+    font-size: 4em;
+    text-align: center;
+    margin-top: 8%;
+}
+
+.p1{
+    margin-top: 4%;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.btn1{
+    margin-top: 5%;
+    color: #ffffff;
+    border:blueviolet 1px solid;
+    background-color: blueviolet;
+    font-size: 1.3em;
+    padding: 2% 5%;
+    border-radius: 3px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    color: blueviolet;
+    background-color: #ffffff;
+    transform: translateY(-2px);
+    transition: all .2s ease;
+}
+ 
+h2{
+    font-size: 3em;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+h4{
+    font-size: 1.3em;
+    padding-top: 2%;
+}
+
+.p2, .p3{
+    font-size: 1.2em;
+    padding-top: 2%;
+}
+
+.p4{
+    font-size: 1.2em;
+    text-align: center;
+    padding-top: 2%;
+    z-index: 1000;
+}
+
+.btn2{
+    margin-top: 5%;
+    color: #ffffff;
+    border:blueviolet 1px solid;
+    background-color: blueviolet;
+    font-size: 1.3em;
+    padding: 3% 5%;
+    border-radius: 3px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn2:hover{
+    transform: translateY(-5px);
+    -webkit-box-shadow: 3px 4px 11px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 4px 11px 1px rgba(0,0,0,0.75);
+    box-shadow: 3px 4px 11px 1px rgba(0,0,0,0.75);
+    transition: all .2s ease;
+}
+
+.btn3{
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 3%  8%;
+    margin-top: 3%;
+    font-size: 2em;
+    font-weight: 600;
+    cursor: pointer;
+    background: -webkit-linear-gradient(left,  #33DAFF, #33FFA8);
+}
+
+.btn3:hover{
+    background: #33FFA8;
+    transform: translateY(-5px);
+    -webkit-box-shadow: -4px 47px 84px -34px rgba(0,0,0,0.75);
+    -moz-box-shadow: -4px 47px 84px -34px rgba(0,0,0,0.75);
+    box-shadow: -4px 47px 84px -34px rgba(0,0,0,0.75);
+    transition: all .2s ease
+}
+
+.contador{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 320px;
+}
+
+.numero{
+    width: 100%;
+    font-size: 12.8em;
+    font-weight: bold;
+    background-color: white;
+    position: absolute;
+    color: #000;
+    justify-content: center;
+    align-items: center;
+}
